@@ -1,0 +1,49 @@
+/* Bus page container */
+.bus-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 50px auto;
+    text-align: center;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Page heading */
+.bus-page h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Districts grid */
+.districts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* District button */
+.district-button {
+    padding: 15px;
+    background: #ffffff; /* White background */
+    border: 2px solid #007bff; /* Blue border to make it look like a button */
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff; /* Blue text color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s, color 0.2s;
+}
+
+/* Hover effect for district button */
+.district-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    background-color: #007bff; /* Blue background on hover */
+    color: #ffffff; /* White text on hover */
+}

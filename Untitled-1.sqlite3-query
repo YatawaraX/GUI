@@ -1,0 +1,4 @@
+-- database: ./users.db
+
+SELECT * FROM users
+ORDER BY `password` ASC;
